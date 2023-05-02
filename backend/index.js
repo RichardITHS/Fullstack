@@ -8,8 +8,6 @@ dotenv.config()
 import express from 'express'
 //Hämtar CORS, hanterar olika request http paket
 import cors from 'cors'
-//Hämtar postgress sql
-import pg from 'pg'
 //hämtar client paketet så kommunikation mellan server och databas fungerar
 import pkg from 'pg'
 const { Client } = pkg
